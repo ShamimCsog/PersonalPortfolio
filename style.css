@@ -24,7 +24,7 @@ h1{
 h3{
     font-size: 25px;
 }
-h5{
+.client-say h5{
     margin-top: -8%;
     font-size: 12px;
     color: dimgray;
@@ -46,6 +46,11 @@ h5{
     padding: 10px 20px;
     color: white;
     font-weight: 700;
+}
+.Button:hover{
+    font-size: 30px;
+    cursor: pointer;
+    background-image: linear-gradient(45deg, lightsalmon, tomato);
 }
 .half-width img{
     width: 100%;
@@ -109,8 +114,8 @@ h5{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    width: 95%;
-    height: 365px;
+    width: 96%;
+    height: 316px;
     
 }
 .client h3 {
@@ -142,11 +147,11 @@ h5{
     padding: 10px 20px;
     color: white;
     font-weight: 700;
-    width: 40%;
-    margin-left: 30%;
-    margin-top: -200px;
-    
-    
+}
+.contact:hover{
+        font-size: 30px;
+        cursor: pointer;
+        background-image: linear-gradient(45deg, lightsalmon, tomato);
 }
 .contact h4{
     font-size: 15px;
@@ -159,10 +164,41 @@ footer{
     background-position: left;
     background-size: cover;
     width: 100%;
-
+    height: 600px;
+    margin-top: -215px;
   }
-  .copyright{
+  
+footer h4{
+    text-align: center;
+    font-size: 20px;
+}
+
+.footer-box{
+    height: 350px;
+    padding-top: 10%;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+footer h5{
     text-align: center;
     color: dimgray;
-    margin-top: 15%;
+    
+    
+}
+
+#txt{
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    font-size: 13px;
+    padding-bottom: 20px;
+}
+.contact a{
+    text-decoration: none;
+    color: white;
 }
